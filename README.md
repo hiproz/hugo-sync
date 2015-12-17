@@ -1,10 +1,10 @@
 # WHAT is hugo-sync
 hugo is a convert tool that can make your markdown file to website page.[HUGO](https://gohugo.io)  
-hugo-sync is a solution that synchronize your github to hugo website automaticly
+hugo-sync is a solution that synchronize your github to hugo website automatically
 
 # WHY
 because the github editer is the most popular and efficient Markdwon editor in the world。  
-so it will be convenient that we write in the github and github synchronize the article to our website automaticly。  
+so it will be convenient that we write in the github and github synchronize the article to our website automatically。  
 it sounds exciting，worth a try!
 
 # work flow 
@@ -15,7 +15,7 @@ it sounds exciting，worth a try!
 3. the hook server will update the hugo content and start the hugo procedural after received the github event msg .  
 4. after the finish of hugo converting, the static html page will be in public folder of hugo.  
 5. deploy the html to our website .  
-all the action above will be done by the computor automaticly.  what the only we need to do is writing.  
+all the action above will be done by the computor automatically.  what the only we need to do is writing.  
 ![](https://hiproz.github.io/goodmemory.cc/blog/images/2015/12/github-hugo-sync.jpg)  
 
 # How to use
