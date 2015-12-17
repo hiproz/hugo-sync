@@ -21,17 +21,13 @@ all the action above will be done by the computor automaticly.  what the only we
 # How to use
 
 1. install the hugo tools.  
-2. download your favorite theme, and config the config.toml.  
-```
-# Theme to use (located in /themes/THEMENAME/)
-theme = "hyde-y" 
-```
+2. download your favorite theme, and config the config.toml.
+    # Theme to use (located in /themes/THEMENAME/)
+    theme = "hyde-y"
 3. download the sync folder, and deploy the folder in your hugo root dictionary.  
 ![](https://hiproz.github.io/goodmemory.cc/blog/images/2015/12/download-sync.jpg)  
-4. create the repo from the remote github server to the sync root dictionary,and rename the repo to "git" or modify the shell script of "git" to your own repo name .  
-```    
-git clone https://github.com/xxx/xxx.git
-```  
+4. create the repo from the remote github server to the sync root dictionary,and rename the repo to "git" or modify the shell script of "git" to your own repo name.
+    git clone https://github.com/xxx/xxx.git
 ![](https://hiproz.github.io/goodmemory.cc/blog/images/2015/12/add-git.jpg)  
 5. the server is use python3 ,need to install the python3 in your server  
 6. modity the shell as your own server environment  
@@ -39,7 +35,7 @@ git clone https://github.com/xxx/xxx.git
     /xx/xxx/python3 /xx/xx/hook-svr.py
 
 # DEMO
-[goodmemory.cc](oodmemory.cc)
+[goodmemory.cc](http://goodmemory.cc)
 
 # ISSUES
 welcome the issues and pr for the project .
