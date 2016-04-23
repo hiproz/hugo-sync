@@ -42,7 +42,7 @@ class HttpHandler(CGIHTTPRequestHandler):
         logging.info("BUILDING NOW...")
         try:
             logging.info(_PWD)
-            resp = execute_cmd(os.path.join(_PWD,'wp-sync.sh'),cwd=_PWD,timeout=600)
+            resp = execute_cmd(os.path.join(_PWD,'wp-hook.sh'),cwd=_PWD,timeout=600)
             logging.info(resp)
         finally:
             HttpHandler._building = False
