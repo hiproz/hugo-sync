@@ -21,23 +21,16 @@ all the action above will be done by the computor automatically.  what the only 
 # File func description
 
 # How to use
-1. install the hugo tools.  
+1. install the hugo tools,and create a hugo website.  
 2. download your favorite theme, and config the config.toml.  
     # Theme to use (located in /themes/THEMENAME/)    
-    theme = "hyde-y"  
-3. download the sync folder, and deploy the folder in your hugo root dictionary.  
-![](https://hiproz.github.io/goodmemory.cc/blog/images/2015/12/download-sync.jpg)  
-4. create the repo from the remote github server to the sync root dictionary,and rename the repo to "git" or modify the shell script of "git" to your own repo name.  
-    git clone https://github.com/xxx/xxx.git   
-![](https://hiproz.github.io/goodmemory.cc/blog/images/2015/12/add-git.jpg)  
-5. the server is use python3 ,need to install the python3 in your server  
-6. modity the shell as your own server environment  
-7. start the hook server
-wordpress hook server:
-    /xx/xxx/python3 /xx/xx/hook-svr.py 
-hugo hook server:
-    /xx/xxx/python3 /xx/xx/hook-svr.py  
-
+    theme = "hyde-z"  
+3. clone the repo, and deploy the folder in your hugo website root dictionary.  
+4. colne the markdown repo of your hugo website, and deploy the folder in your hugo website root dictionary. 
+5. modity the shell as your own server environment  
+6. add auto start script to the rc.local of your server,eg:  
+    /xx/xxx/python3 /xx/xx/wp-hook-svr.py 
+7. reboot
 
 # Demo
 [goodmemory.cc](https://www.goodmemory.cc)
