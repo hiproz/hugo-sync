@@ -1,25 +1,25 @@
 # WHAT is hugo-sync
-hugo is a convert tool that can make your markdown file to website page.[HUGO](https://gohugo.io)  
-hugo-sync is a solution that synchronize your github to hugo website automatically
+hugo-sync is an **automaticlly solution** that update your site page from github or your wordpress site based on [HUGO](https://gohugo.io).
 
-# WHY
-because the github editer is the most popular and efficient Markdwon editor in the world。  
-so it will be convenient that we write in the github and github synchronize the article to our website automatically。  
-it sounds exciting，worth a try!
+# Benifit
+1. Backup:backup your web content in the github.
+2. Search:add search funtion to your hugo site(although the hugo version 1.0 will support search function,but the current is have no proper search solution).
+3. Automatition:do noce,all is done！
 
 # work flow 
-
 1. set the github hook event.  
-![](https://hiproz.github.io/goodmemory.cc/blog/images/2015/12/git-hook-event.jpg)  
-2. write our markdown article in the github, and push it. the github will send webservice hook event to our payload url.  
-3. the hook server will update the hugo content and start the hugo procedural after received the github event msg .  
-4. after the finish of hugo converting, the static html page will be in public folder of hugo.  
+![git hook event](https://hiproz.github.io/goodmemory.cc/blog/images/2015/12/git-hook-event.jpg)  
+2. add hook code to your wordpress:[通过wordpress钩子接口实现新增修改删除文章后执行相应动作](https://www.goodmemory.cc/%E9%80%9A%E8%BF%87wordpress%E9%92%A9%E5%AD%90%E6%8E%A5%E5%8F%A3%E5%AE%9E%E7%8E%B0%E6%96%B0%E5%A2%9E%E4%BF%AE%E6%94%B9%E5%88%A0%E9%99%A4%E6%96%87%E7%AB%A0%E5%90%8E%E6%89%A7%E8%A1%8C%E7%9B%B8%E5%BA%94/)
+3. deploy your hook server in your wordpress server and hugo server if necessary.
+4. write in your wordpress page or in the github.the github will send webservice hook event to our hook server.  
+5. the hugo hook server will update the hugo content and start the hugo procedural after received the github hook event msg . 6. after the finish of hugo converting, the static html page will be in public folder of hugo.  
 5. deploy the html to our website .  
 all the action above will be done by the computor automatically.  what the only we need to do is writing.  
-![](https://hiproz.github.io/goodmemory.cc/blog/images/2015/12/github-hugo-sync.jpg)  
+![hugo-sync work flow](https://hiproz.github.io/goodmemory.cc/blog/images/2015/12/hugo-sync.jpeg)
+
+# file func description
 
 # How to use
-
 1. install the hugo tools.  
 2. download your favorite theme, and config the config.toml.  
     # Theme to use (located in /themes/THEMENAME/)    
@@ -31,14 +31,18 @@ all the action above will be done by the computor automatically.  what the only 
 ![](https://hiproz.github.io/goodmemory.cc/blog/images/2015/12/add-git.jpg)  
 5. the server is use python3 ,need to install the python3 in your server  
 6. modity the shell as your own server environment  
-7. start the hook server   
+7. start the hook server
+wordpress hook server:
+    /xx/xxx/python3 /xx/xx/hook-svr.py 
+hugo hook server:
     /xx/xxx/python3 /xx/xx/hook-svr.py  
 
+
 # DEMO
-[goodmemory.cc](http://goodmemory.cc)
+[goodmemory.cc](https://www.goodmemory.cc)
 
 # ISSUES
-welcome the issues and pr for the project .
+welcome the issues and PR for the project .
 
 # license
 MIT
