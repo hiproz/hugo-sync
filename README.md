@@ -18,8 +18,6 @@ hugo-sync is an **automaticlly solution** that update your site page from github
 all the action above will be done by the computor automatically.  what the only we need to do is writing.  
 ![hugo-sync work flow](https://hiproz.github.io/goodmemory.cc/blog/images/2015/12/hugo-sync.jpeg)
 
-# File func description
-
 # How to use
 1. install the hugo tools,and create a hugo website.  
 2. download your favorite theme, and config the config.toml.  
