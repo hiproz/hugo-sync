@@ -1,5 +1,5 @@
 # What is hugo-sync
-hugo-sync is an **automaticlly solution** that update your site page from github or your wordpress site based on [HUGO](https://gohugo.io).
+hugo-sync is an **automatic solution** that update your site page from github or your wordpress site based on [HUGO](https://gohugo.io).
 
 # Benifit
 1. Backup:backup your web content in the github.
