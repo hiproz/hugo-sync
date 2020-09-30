@@ -27,7 +27,7 @@ theme = "hyde-z"
 ```
 3. clone the repo, and deploy the folder in your hugo website root dictionary.  
 4. colne the markdown repo of your hugo website, and deploy the folder in your hugo website root dictionary. 
-5. modity the shell as your own server environment  
+5. modity the shell as your own server environment.
 6. add auto start script to the rc.local of your server,eg:  
     /xx/xxx/python3 /xx/xx/wp-hook-svr.py 
 7. reboot
@@ -35,7 +35,7 @@ theme = "hyde-z"
 # Demo
 
 # Issues
-welcome the issues and PR for the project .
+welcome the issues and PR for the project.
 
 # License
 MIT
