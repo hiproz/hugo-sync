@@ -48,6 +48,8 @@ Please give PR or your website that use hugo-sync solution. It will be display i
 # Issues
 Welcome the issues and PR for the project.
 
+# Trouble shooting
+
 # License
 MIT
 
